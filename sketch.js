@@ -12,7 +12,7 @@ function setup() {
 
   plane = new Plane(500,height,1000,10)
 
-	ground = new Ground(500,490,1000,20);
+	ground1 = new Ground(500,490,1000,20);
   iron1 = new iron(200,450,50,50);
 	iron2 = new iron(500,450,50,50);
 	stone1= new stone(800,470,10,10);
@@ -36,7 +36,7 @@ function draw() {
   rectMode(CENTER);
   background("lightblue");
   
-  ground.display();
+  ground1.display();
   iron1.display();
   iron2.display();
   stone1.display();
